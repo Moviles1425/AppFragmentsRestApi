@@ -1,5 +1,5 @@
 package pe.edu.cibertec.apprecyclerviewrest.retrofit.response
 
-class ResultPersonaje{
-
-}
+data class ResultPersonaje(
+    var results: List<Personaje>
+)
